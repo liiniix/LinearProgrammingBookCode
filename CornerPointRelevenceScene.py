@@ -60,6 +60,26 @@ def plotConstraintsOnAxesAndReturn(axes):
             secondConstraintPlot,
             secondConstraintRegion)
 
+class FeasibleRegionOnly(Scene):
+    def construct(self):
+        axes = Axes(x_range=[-5, 5, 1],
+                    y_range=[-4, 5, 1],
+                    x_length=8,
+                    y_length=7)
+        axesLabels = axes.get_axis_labels(
+            Tex("x-axis").scale(0.7), Text("y-axis").scale(0.45)
+        )
+        (axes,
+        firstConstraintEquation,
+        firstConstraintPlot,
+        firstConstraintRegion,
+        secondConstraintEquation,
+        secondConstraintPlot,
+        secondConstraintRegion) = plotConstraintsOnAxesAndReturn(axes)
+
+        self.add(axes, axesLabels, firstConstraintPlot, firstConstraintRegion,
+                 secondConstraintPlot, secondConstraintRegion, firstConstraintEquation, secondConstraintEquation)
+
 
 class CornerPointRelevence(ThreeDScene):
     def GenerateObjectiveFunctionZValue(self, u, v):
