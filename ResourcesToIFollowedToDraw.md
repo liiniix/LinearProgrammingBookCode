@@ -1,0 +1,10 @@
+- TabularMethodEquivalentToMatrixMethod
+    - `SurroundingRectangle`
+        - https://docs.manim.community/en/stable/reference/manim.mobject.geometry.shape_matchers.SurroundingRectangle.html
+    - Motivation
+        - https://github.com/xiaoxiae/videos/tree/master/18-lopt
+        - Slama.Dev
+        - https://slama.dev/
+        - https://youtu.be/E72DWgKP_1Y?si=pgfjisYADIST9xfd
+            - The Art of Linear Programming
+            - Tom S
