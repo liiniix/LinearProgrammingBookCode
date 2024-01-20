@@ -1,6 +1,8 @@
 - TabularMethodEquivalentToMatrixMethod
     - `SurroundingRectangle`
         - https://docs.manim.community/en/stable/reference/manim.mobject.geometry.shape_matchers.SurroundingRectangle.html
+    - Adding Extra LaTeX Packages
+        - https://docs.manim.community/en/stable/guides/using_text.html#extra-latex-packages
     - Motivation
         - https://github.com/xiaoxiae/videos/tree/master/18-lopt
         - Slama.Dev
